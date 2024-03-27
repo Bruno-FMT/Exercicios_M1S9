@@ -10,7 +10,7 @@ public class BibliotecarioEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id;
+    private Long id;
 
     @Column(nullable = false, length = 70)
     private String nome;
